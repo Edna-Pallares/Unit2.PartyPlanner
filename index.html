@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party Planner</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Party Planner</h1>
+
+    <!-- Form to add a new party -->
+    <form id="party-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="datetime-local" id="date" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <button type="submit">Add Party</button>
+    </form>
+
+    <!-- List of parties -->
+    <ul id="party-list">
+        <!-- Parties will be added here -->
+    </ul>
+
+    <script src="index.js"></script>
+</body>
+</html>
