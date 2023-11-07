@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(118, 147, 149);
+}
+
+h1{
+    text-align: center;
+}
+.text {
+    color: white;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
